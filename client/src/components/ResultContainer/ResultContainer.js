@@ -10,9 +10,11 @@ import axios from "axios";
 
 function ResultsContainer({ searchResults }) {
 
-    const books = searchResults
+    console.log(searchResults);
 
-    if (searchResults) {
+    const books = searchResults;
+
+    if (books) {
         return (
             <div className="container-fluid mt-4">
                 <h3>Results: </h3>
@@ -26,7 +28,9 @@ function ResultsContainer({ searchResults }) {
         );
     } else {
         return (
-            <h1>Hello</h1>
+            <div className="container-fluid d-flex justify-content-center">
+                <h1 className="">No Results Matching Your Search!</h1>
+            </div>
         )
     }
 }
