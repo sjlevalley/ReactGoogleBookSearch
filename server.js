@@ -4,8 +4,15 @@ const router = require("./router");
 const connectDb = require("./config/connectDb");
 const session = require("./config/session");
 const errorMiddleware = require("./util/errorMiddleware");
+const app = express();
 
 const PORT = process.env.PORT || 3001;
+
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+
 
 (async () => {
   try {

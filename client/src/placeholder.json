@@ -1,0 +1,722 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1739,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "EXt29MYE37wC",
+      "etag": "5LiHBSiM0PE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EXt29MYE37wC",
+      "volumeInfo": {
+        "title": "Bobby Flay's Barbecue Addiction",
+        "authors": ["Bobby Flay", "Stephanie Banyas", "Sally Jackson"],
+        "publisher": "Clarkson Potter Publishers",
+        "publishedDate": "2013",
+        "description": "Shares culinary secrets for effective grilling, offers advice on different cookers and grilling gear, and provides recipes for such fare as smoked prime rib with red wine steak sauce and smoked spice-rubbed brisket, Texas style.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307461391"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307461394"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 287,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=EXt29MYE37wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=EXt29MYE37wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=EXt29MYE37wC&printsec=frontcover&dq=barbecue&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=EXt29MYE37wC&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Bobby_Flay_s_Barbecue_Addiction.html?hl=&id=EXt29MYE37wC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EXt29MYE37wC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Shares culinary secrets for effective grilling, offers advice on different cookers and grilling gear, and provides recipes for such fare as smoked prime rib with red wine steak sauce and smoked spice-rubbed brisket, Texas style."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-Pg9mwEACAAJ",
+      "etag": "usPDe5g8iT8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-Pg9mwEACAAJ",
+      "volumeInfo": {
+        "title": "The Barbecue! Bible",
+        "authors": ["Steven Raichlen"],
+        "publisher": "Turtleback",
+        "publishedDate": "2008-05-01",
+        "description": "Now the biggest, best recipe collection for the grill is getting better. This is the full-color edition of the 900,000-copy bestseller and winner of the IACP/Julia Child Cookbook Award.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0606316450"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780606316453"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 556,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "averageRating": 4.5,
+        "ratingsCount": 28,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-Pg9mwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-Pg9mwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=-Pg9mwEACAAJ&dq=barbecue&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=-Pg9mwEACAAJ&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Barbecue_Bible.html?hl=&id=-Pg9mwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-Pg9mwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "From &quot;America&#39;s master griller&quot; (Esquire), here&#39;s the biggest, baddest, best salute to our passion for barbecue, now in a full-color edition. A 500-recipe celebration of sizzle and smoke, Steven Raichlen&#39;s award-winning The Barbecue!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YNIbnKBfrcAC",
+      "etag": "XU0WAQM9NRU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YNIbnKBfrcAC",
+      "volumeInfo": {
+        "title": "Planet Barbecue!",
+        "subtitle": "309 Recipes, 60 Countries",
+        "authors": ["Steven Raichlen"],
+        "publisher": "Workman Publishing",
+        "publishedDate": "2010-05-01",
+        "description": "The most ambitious book yet by America’s bestselling, award-winning grill expert whose Barbecue! Bible books have over 4 million copies in print. Setting out—again—on the barbecue trail four years ago, Steven Raichlen visited 60 countries—yes, 60 countries—and collected 309 of the tastiest, most tantalizing, easy-to-make, and guaranteed-to-wow recipes from every corner of the globe. Welcome to Planet Barbecue, the book that will take America’s passionate, obsessive, smoke-crazed live-fire cooks to the next level. Planet Barbecue, with full-color photographs throughout, is an unprecedented marriage of food and culture. Here, for example, is how the world does pork: in the Puerto Rican countryside cooks make Lechon Asado—stud a pork shoulder with garlic and oregano, baste it with annatto oil, and spit-roast it. From the Rhine-Palatine region of Germany comes Spiessbraten, thick pork steaks seasoned with nutmeg and grilled over a low, smoky fire. From Seoul, South Korea, Sam Gyeop Sal—grilled sliced pork belly. From Montevideo, Uruguay, Bandiola—butterflied pork loin stuffed with ham, cheese, bacon, and peppers. From Cape Town, South Africa, Sosaties—pork kebabs with dried apricots and curry. And so it goes for beef, fish, vegetables, shellfish—says Steven, \"Everything tastes better grilled.\" In addition to the recipes the book showcases inventive ways to use the grill: Australia's Lamb on a Shovel, Bogota's Lomo al Trapo (Salt-Crusted Beef Tenderloin Grilled in Cloth), and from the Charantes region of France, Eclade de Moules—Mussels Grilled on Pine Needles. Do try this at home. What a planet—what a book.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780761148012"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0761148019"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 656,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "averageRating": 5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YNIbnKBfrcAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YNIbnKBfrcAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=YNIbnKBfrcAC&printsec=frontcover&dq=barbecue&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=YNIbnKBfrcAC&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Planet_Barbecue.html?hl=&id=YNIbnKBfrcAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Planet_Barbecue-sample-pdf.acsm?id=YNIbnKBfrcAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YNIbnKBfrcAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Welcome to Planet Barbecue, the book that will take America’s passionate, obsessive, smoke-crazed live-fire cooks to the next level."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "L97ZCwAAQBAJ",
+      "etag": "RTmc7LTkDzQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/L97ZCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Franklin Barbecue",
+        "subtitle": "A Meat-smoking Manifesto",
+        "authors": ["Aaron Franklin", "Jordan Mackay"],
+        "publisher": "A Meat-smoking Manifesto",
+        "publishedDate": "2015",
+        "description": "When Aaron and Stacy Franklin opened up a small barbecue trailer on the side of an Austin, Texas, interstate in 2009, they had no idea what they'd gotten themselves into. Today, Franklin Barbecue has a national reputation and several major barbecue awards. Now the authors share years' worth of hard-won knowledge and the secrets behind truly great barbecue. This resource for the backyard pitmaster includes chapters dedicated to building or customizing your own smoker; finding and curing the right wood; creating and tending perfect fires; sourcing top-quality meat; and of course, cooking mind-blowing, ridiculously delicious barbecue.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781607747208"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1607747200"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 213,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=L97ZCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=L97ZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=L97ZCwAAQBAJ&printsec=frontcover&dq=barbecue&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=L97ZCwAAQBAJ&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Franklin_Barbecue.html?hl=&id=L97ZCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=L97ZCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Today, Franklin Barbecue has a national reputation and several major barbecue awards. Now the authors share years&#39; worth of hard-won knowledge and the secrets behind truly great barbecue."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QfH7nwiGXmUC",
+      "etag": "W5P8Q4RaWJk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QfH7nwiGXmUC",
+      "volumeInfo": {
+        "title": "Barbecue Crossroads",
+        "subtitle": "Notes and Recipes from a Southern Odyssey",
+        "authors": ["Robb Walsh", "O. Rufus Lovett"],
+        "publisher": "University of Texas Press",
+        "publishedDate": "2013-04-15",
+        "description": "Presents stories, recipes, and photographs of barbecue cooking in the South, recording the pitmasters and legendary joints that make this food culture famous.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780292752849"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0292752849"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QfH7nwiGXmUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QfH7nwiGXmUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=QfH7nwiGXmUC&printsec=frontcover&dq=barbecue&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=QfH7nwiGXmUC&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Barbecue_Crossroads.html?hl=&id=QfH7nwiGXmUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QfH7nwiGXmUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Presents stories, recipes, and photographs of barbecue cooking in the South, recording the pitmasters and legendary joints that make this food culture famous."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3wK7MgEACAAJ",
+      "etag": "8d3LmdztHQg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3wK7MgEACAAJ",
+      "volumeInfo": {
+        "title": "Everyday Barbecue",
+        "subtitle": "At Home with America's Favorite Pitmaster",
+        "authors": ["Myron Mixon", "Kelly Alexander"],
+        "publisher": "Ballantine Books",
+        "publishedDate": "2013",
+        "description": "Featuring 150 all new, simple recipes for barbecue enthusiasts of all levels, the star of the hit TV show BBQ Pitmasters sets out to prove that barbecuing isn't just for the Fourth of July or the annual church supper. Original.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0345543645"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345543646"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 295,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3wK7MgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3wK7MgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=3wK7MgEACAAJ&dq=barbecue&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=3wK7MgEACAAJ&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Everyday_Barbecue.html?hl=&id=3wK7MgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3wK7MgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Featuring 150 all new, simple recipes for barbecue enthusiasts of all levels, the star of the hit TV show BBQ Pitmasters sets out to prove that barbecuing isn&#39;t just for the Fourth of July or the annual church supper. Original."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hc0ULBqlgVgC",
+      "etag": "S0vfEpw23PM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hc0ULBqlgVgC",
+      "volumeInfo": {
+        "title": "Republic of Barbecue",
+        "subtitle": "Stories Beyond the Brisket",
+        "authors": ["Elizabeth S. D. Engelhardt"],
+        "publisher": "University of Texas Press",
+        "publishedDate": "2010-01-01",
+        "description": "It's no overstatement to say that the state of Texas is a republic of barbecue. Whether it's brisket, sausage, ribs, or chicken, barbecue feeds friends while they catch up, soothes tensions at political events, fuels community festivals, sustains workers of all classes, celebrates brides and grooms, and even supports churches. Recognizing just how central barbecue is to Texas's cultural life, Elizabeth Engelhardt and a team of eleven graduate students from the University of Texas at Austin set out to discover and describe what barbecue has meant to Texans ever since they first smoked a beef brisket. Republic of Barbecue presents a fascinating, multifaceted portrait of the world of barbecue in Central Texas. The authors look at everything from legendary barbecue joints in places such as Taylor and Lockhart to feedlots, ultra-modern sausage factories, and sustainable forests growing hardwoods for barbecue pits. They talk to pit masters and proprietors, who share the secrets of barbecue in their own words. Like side dishes to the first-person stories, short essays by the authors explore a myriad of barbecue's themes—food history, manliness and meat, technology, nostalgia, civil rights, small-town Texas identity, barbecue's connection to music, favorite drinks such as Big Red, Dr. Pepper, Shiner Bock, and Lone Star beer—to mention only a few. An ode to Texas barbecue in films, a celebration of sports and barbecue, and a pie chart of the desserts that accompany brisket all find homes in the sidebars of the book, while photographic portraits of people and places bring readers face-to-face with the culture of barbecue.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780292782143"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0292782144"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 255,
+        "printType": "BOOK",
+        "categories": ["Social Science"],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hc0ULBqlgVgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hc0ULBqlgVgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=hc0ULBqlgVgC&printsec=frontcover&dq=barbecue&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=hc0ULBqlgVgC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hc0ULBqlgVgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 21.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 21.95,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=hc0ULBqlgVgC&rdid=book-hc0ULBqlgVgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 21950000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 21950000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hc0ULBqlgVgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "An ode to Texas barbecue in films, a celebration of sports and barbecue, and a pie chart of the desserts that accompany brisket all find homes in the sidebars of the book, while photographic portraits of people and places bring readers face ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AQsNAQAAQBAJ",
+      "etag": "e9SLtrvXs3c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AQsNAQAAQBAJ",
+      "volumeInfo": {
+        "title": "Peace, Love, & Barbecue",
+        "subtitle": "Recipes, Secrets, Tall Tales, and Outright Lies from the Legends of Barbecue",
+        "authors": ["Mike Mills", "Amy Mills Tunnicliffe"],
+        "publisher": "Rodale",
+        "publishedDate": "2005-05-20",
+        "description": "An entertaining cookbook, memoir, and travelogue presents a behind-the-scenes glimpse of the barbecue contest circuit, with one hundred prize-winning recipes, as well as the author's own treasured family dishes and contributions from friends, that encompass all kinds of meat, fish, poultry, sauces and dry rubs, soups, side dishes, and tasty sweets. Original. 75,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781594861093"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1594861099"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 312,
+        "printType": "BOOK",
+        "categories": ["Cooking"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AQsNAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AQsNAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=AQsNAQAAQBAJ&printsec=frontcover&dq=barbecue&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=AQsNAQAAQBAJ&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Peace_Love_Barbecue.html?hl=&id=AQsNAQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Peace_Love_Barbecue-sample-epub.acsm?id=AQsNAQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AQsNAQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Original. 75,000 first printing. PEACE, LOVE, and BARBECUE is an extraordinary behind-the-scenes journey into the world of barbecue with Grand World Champion pitmaster Mike Mills as your guide."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "B8igiTiuBoYC",
+      "etag": "PDPyreX8/5s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/B8igiTiuBoYC",
+      "volumeInfo": {
+        "title": "The Kentucky Barbecue Book",
+        "authors": ["Wes Berry"],
+        "publisher": "University Press of Kentucky",
+        "publishedDate": "2013",
+        "description": "The Kentucky Barbecue Book is a feast for readers who are eager to sample the finest fare in the state. From the banks of the Mississippi to the hidden hollows of the Appalachian Mountains, author and barbecue enthusiast Wes Berry hit the trail in search of the best smoke, the best flavor, and the best pitmasters he could find. This handy guide presents the most succulent menus and colorful personalities in Kentucky.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780813141794"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0813141796"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 356,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=B8igiTiuBoYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=B8igiTiuBoYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=B8igiTiuBoYC&printsec=frontcover&dq=barbecue&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=B8igiTiuBoYC&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Kentucky_Barbecue_Book.html?hl=&id=B8igiTiuBoYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=B8igiTiuBoYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Kentucky Barbecue Book is a feast for readers who are eager to sample the finest fare in the state."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "C7u9AQAACAAJ",
+      "etag": "IYa5ee23Jpc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/C7u9AQAACAAJ",
+      "volumeInfo": {
+        "title": "Virginia Barbecue",
+        "subtitle": "A History",
+        "authors": ["Joseph R. Haynes"],
+        "publisher": "History Press Library Editions",
+        "publishedDate": "2016-09-12",
+        "description": "With more than four hundred years of history, Virginians lay claim to the invention of southern barbecue. Native Virginian Powhatan tribes slow roasted meat on wooden hurdles or grills. James Madison hosted grand barbecue parties during the colonial and federal eras. The unique combination of vinegar, salt, pepper, oils and various spices forms the mouthwatering barbecue sauce that was first used by colonists in Virginia and then spread throughout the country. Today, authentic Virginia barbecue is regionally diverse and remains culturally vital. Drawing on hundreds of historical and contemporary sources, author, competition barbecue judge and award-winning barbecue cook Joe Haynes documents the delectable history of barbecue in the Old Dominion.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1531699979"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781531699970"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 290,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=C7u9AQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=C7u9AQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "un",
+        "previewLink": "http://books.google.com/books?id=C7u9AQAACAAJ&dq=barbecue&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=C7u9AQAACAAJ&dq=barbecue&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Virginia_Barbecue.html?hl=&id=C7u9AQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=C7u9AQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Today, authentic Virginia barbecue is regionally diverse and remains culturally vital."
+      }
+    }
+  ]
+}

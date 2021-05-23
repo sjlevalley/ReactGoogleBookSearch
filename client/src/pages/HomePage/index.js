@@ -1,8 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import { useAuth } from "../../util/auth";
-import ResultsContainer from "../ResultContainer/ResultContainer";
-import SearchForm from "../SearchForm/searchForm";
+import ResultsContainer from "../../components/ResultContainer/ResultContainer";
+import SearchForm from "../../components/SearchForm/searchForm";
 
 
 function HomePage() {
