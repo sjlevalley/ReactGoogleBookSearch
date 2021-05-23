@@ -10,13 +10,6 @@ import { items as books } from "../../placeholder.json";
 
 function ResultsContainer() {
 
-    //   Test Google Books Search
-    useEffect(() => {
-        axios
-            .get("https://www.googleapis.com/books/v1/volumes?q=quilting")
-            .then(console.log)
-            .catch(console.log);
-    });
 
 
     return (

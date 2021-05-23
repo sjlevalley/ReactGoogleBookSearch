@@ -13,13 +13,9 @@ import Hero from "./components/Hero/Hero"
 
 function App() {
 
-  // Test Google Books Search
-  // useEffect(() => {
-  //   axios
-  //     .get("https://www.googleapis.com/books/v1/volumes?q=quilting")
-  //     .then(console.log)
-  //     .catch(console.log);
-  // });
+
+
+
 
   return (
     // <AuthProvider>
