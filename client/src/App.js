@@ -1,21 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
-import axios from "axios";
 // import { AuthProvider } from "./util/auth";
-import { get as getUser } from "./util/userApi";
-import HomePage from "./pages/HomePage";
+// import { get as getUser } from "./util/userApi";
 // import LoginPage from "./pages/LoginPage";
+// import SignupPage from "./pages/SignupPage";
+import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import PrivatePage from "./pages/PrivatePage";
-// import SignupPage from "./pages/SignupPage";
 import PrivateRoute from "./components/PrivateRoute";
 import Hero from "./components/Hero/Hero"
 
 function App() {
-
-
-
-
 
   return (
     // <AuthProvider>

@@ -12,7 +12,7 @@ function Navbar() {
           <Nav className="navbar-brand" exact to="/">
             Google Books
         </Nav>
-          <Nav to="/private">Private</Nav>
+          <Nav to="/private">Saved</Nav>
         </ul>
         {/* <ul className="navbar-nav nav2">
           <Nav to="/login">Login</Nav>

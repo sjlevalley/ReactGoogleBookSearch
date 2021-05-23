@@ -1,5 +1,6 @@
 import React from "react";
 import "./book.css";
+import placeHolder150 from '../Book/placeholder150x150.jpg'
 import ViewButton from "../Buttons/ViewButton";
 import SaveButton from "../Buttons/SaveButton";
 
@@ -13,7 +14,7 @@ function Book({ book }) {
         <div className="card m-3 border border-dark" style={{}}>
             <div className="row no-gutters">
                 <div className="col-md-3">
-                    {/* <img src={imageLinks.thumbnail} */}
+                    <img src={placeHolder150}
                         alt={`thumbnail of ${title}`} />
                 </div>
                 <div className="col-md-9">

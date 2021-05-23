@@ -16,9 +16,9 @@ function ResultsContainer({ searchResults }) {
 
     if (books) {
         return (
-            <div className="container-fluid mt-4">
+            <div className="m-5 border p-3">
                 <h3>Results: </h3>
-                <div className="container container-fluid m-5 border border-dark">
+                <div className="container container-fluid">
                     {books.map((book) => (
                         <Book key={book.id} book={book} />
                     ))}

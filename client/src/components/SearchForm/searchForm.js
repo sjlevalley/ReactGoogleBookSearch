@@ -1,16 +1,16 @@
 import React from "react";
 import "./searchForm.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 function SearchForm({ handleSearchChange, handleFormSubmit, search }) {
     return (
 
-        <div className="container-fluid border border-dark">
+        <div className="border m-5 p-4">
             <h3>Book Search</h3>
-            <hr />
-            <form onSubmit={handleFormSubmit} className="">
+            <form onSubmit={handleFormSubmit} className="m-0">
                 <div className="form-group">
-                    <label htmlFor="search">Book</label>
+                    <label htmlFor="search">Book:</label>
                     <input
                         defaultValue="Car"
                         type="text"
