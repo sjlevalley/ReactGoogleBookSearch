@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import 'bootstrap/dist/css/bootstrap.css';
-
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import axios from "axios";
 // import { AuthProvider } from "./util/auth";

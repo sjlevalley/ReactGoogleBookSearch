@@ -1,22 +1,37 @@
 import React from "react";
 import "./book.css";
-import placeHolder150 from '../Book/placeholder150x150.jpg'
 import ViewButton from "../Buttons/ViewButton";
 import SaveButton from "../Buttons/SaveButton";
 
 
 
 
-function Book() {
-    return (
-        <div className="container-fluid">
-            <h2>Title: Harold Pottery</h2>
-            <ViewButton />
-            <SaveButton />
-            <h6>Author: Who Knows</h6>
-            <img src={placeHolder150} alt="Placeholder" className="float-left" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+function Book({ book }) {
 
+    const { title, authors, description, imageLinks, infoLink } = book.volumeInfo;
+
+
+    return (
+        <div className="card m-3 border border-dark" style={{}}>
+            <div className="row no-gutters">
+                <div className="col-md-3">
+                    <img src={imageLinks.thumbnail}
+                        alt={`thumbnail of ${title}`} />
+                </div>
+                <div className="col-md-9">
+                    <div className="card-body">
+                        <h5 className="card-title">{title}</h5>
+                        <p className="cart-text">{authors.join(", ")}</p>
+                        <p className="card-text">{description}</p>
+
+                        <div className="d-flex justify-content-end">
+                            <a className="btn btn-primary m-1" href={infoLink} target="_blank" rel="noopener noreferrer" >View</a>
+                            <button href="#" className="btn btn-success m-1">Save</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     );
