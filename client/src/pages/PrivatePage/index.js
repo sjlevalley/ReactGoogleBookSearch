@@ -1,11 +1,14 @@
 import React from "react";
-import { useAuth } from "../../util/auth";
+// import { useAuth } from "../../util/auth";
 
 // PrivatePage is an example include to demonstrate a route protected from
 // unauthenticated users. See the routing in App.js.
 function PrivatePage() {
-  const auth = useAuth();
-  return <h1>Hello, {auth.user.username}!</h1>;
+  // const auth = useAuth();
+  // return <h1>Hello, {auth.user.username}!</h1>;
+  return (
+    <h1>Private Page</h1>
+  )
 }
 
 export default PrivatePage;

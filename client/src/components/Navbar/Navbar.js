@@ -14,11 +14,11 @@ function Navbar() {
         </Nav>
           <Nav to="/private">Private</Nav>
         </ul>
-        <ul className="navbar-nav nav2">
+        {/* <ul className="navbar-nav nav2">
           <Nav to="/login">Login</Nav>
           <Nav to="/signup">Sign Up</Nav>
           <button onClick={() => auth.logout()}>Logout</button>
-        </ul>
+        </ul> */}
 
 
       </div>
