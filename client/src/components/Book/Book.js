@@ -5,10 +5,11 @@ import SaveButton from "../Buttons/SaveButton";
 
 
 
-
 function Book({ book }) {
-
+    console.log(book);
     const { title, authors, description, imageLinks, infoLink } = book.volumeInfo;
+
+
 
 
     return (
@@ -21,7 +22,7 @@ function Book({ book }) {
                 <div className="col-md-9">
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
-                        <p className="cart-text">{authors.join(", ")}</p>
+                        <p className="cart-text">{authors}</p>
                         <p className="card-text">{description}</p>
 
                         <div className="d-flex justify-content-end">

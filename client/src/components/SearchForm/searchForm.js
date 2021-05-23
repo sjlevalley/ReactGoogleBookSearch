@@ -2,20 +2,21 @@ import React from "react";
 import "./searchForm.css";
 
 
-function SearchForm({ handleSearchChange, search }) {
+function SearchForm({ handleSearchChange, handleFormSubmit, search }) {
     return (
 
         <div className="container-fluid border border-dark">
             <h3>Book Search</h3>
             <hr />
-            <form className="">
+            <form onSubmit={handleFormSubmit} className="">
                 <div className="form-group">
                     <label htmlFor="search">Book</label>
                     <input
+                        defaultValue="Car"
                         type="text"
+                        className="form-control"
                         onChange={handleSearchChange}
                         value={search}
-                        className="form-control"
                         id="search"
                         placeholder="Enter Search Here" />
                 </div>
