@@ -9,9 +9,6 @@ function Book({ book }) {
     console.log(book);
     const { title, authors, description, imageLinks, infoLink } = book.volumeInfo;
 
-
-
-
     return (
         <div className="card m-3 border border-dark" style={{}}>
             <div className="row no-gutters">
