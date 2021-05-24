@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const router = require("./router");
+const router = require("./controllers");
 const connectDb = require("./config/connectDb");
 const session = require("./config/session");
 const errorMiddleware = require("./util/errorMiddleware");

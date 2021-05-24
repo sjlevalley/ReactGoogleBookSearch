@@ -5,12 +5,14 @@ import ViewButton from "../Buttons/ViewButton";
 import SaveButton from "../Buttons/SaveButton";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function Book({ book }) {
     const { title, authors, description, imageLinks, infoLink } = book.volumeInfo;
 
     function saveBook(event) {
+        // const closeAfter1 = () => toast.success(`Congratultions, you added ${title} to your bookshelf.`, { autoClose: 3000 });
         const newBook = {
             title: `${title}`,
             authors: `${authors}`,
@@ -18,10 +20,10 @@ function Book({ book }) {
             imageLinks: `${imageLinks}`,
             infoLink: `${infoLink}`
         }
-        event.preventDefault();
-        toast.success(`You added ${title} to your bookshelf`)
+        event.preventDefault()
+        toast.success(`Book Added!`, { autoClose: 2000 });
         console.log(newBook);
-        // axios.post("/api/books", newBook)
+        axios.post("/api/books", JSON.stringify({ newBook }))
     }
 
     return (
@@ -65,6 +67,7 @@ function Book({ book }) {
                             >
                                 Save
                                 </button>
+                            <ToastContainer />
 
                         </div>
                     </div>
