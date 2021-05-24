@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import { useAuth } from "../../util/auth";
 import ResultsContainer from "../../components/ResultContainer/ResultContainer";
 import SearchForm from "../../components/SearchForm/searchForm";
+import useDebounce from "../../util/useDebounce";
 
 
 function HomePage() {
@@ -17,14 +18,16 @@ function HomePage() {
   const [search, setSearch] = useState("car");
   const [searchResults, setSearchResults] = useState([]);
 
+  const debouncedSearchTerm = useDebounce(search, 300);
+
   // Test Google Books Search
   useEffect(() => {
-    bookAPI.search(search)
+    bookAPI.search(debouncedSearchTerm)
       .then((res) => {
         setSearchResults(res.data.items)
       })
       .catch(console.error())
-  }, [search]);
+  }, [debouncedSearchTerm]);
 
   // console.log(searchResults)
 
@@ -33,9 +36,10 @@ function HomePage() {
     setSearch(value);
   };
 
+
+
   return (
     <>
-
       <SearchForm
         handleSearchChange={handleSearchChange}
       />

@@ -1,19 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Book from "../Book/Book";
-import axios from "axios";
-
 // import { items as books } from "../../placeholder.json";
 
-
-
-
-
 function ResultsContainer({ searchResults }) {
-
-    console.log(searchResults);
-
     const books = searchResults;
-
     if (books) {
         return (
             <div className="m-5 border p-3">
