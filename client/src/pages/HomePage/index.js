@@ -1,8 +1,8 @@
 // import React from "react";
 import React, { useEffect, useState } from "react";
 import bookAPI from "../../util/bookApi";
-import { useHistory } from "react-router-dom";
-import { useAuth } from "../../util/auth";
+// import { useHistory } from "react-router-dom";
+// import { useAuth } from "../../util/auth";
 import ResultsContainer from "../../components/ResultContainer/ResultContainer";
 import SearchForm from "../../components/SearchForm/searchForm";
 import useDebounce from "../../util/useDebounce";

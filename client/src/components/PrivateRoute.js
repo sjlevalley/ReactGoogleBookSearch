@@ -1,6 +1,6 @@
 import React from "react";
-import { Redirect, Route } from "react-router-dom";
-import { useAuth } from "../util/auth";
+// import { Redirect, Route } from "react-router-dom";
+// import { useAuth } from "../util/auth";
 import ResultsContainer from "./ResultContainer/ResultContainer";
 
 // Use this component for routes to which only authenticated users should have

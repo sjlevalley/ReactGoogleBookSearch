@@ -1,6 +1,11 @@
+const express = require("express");
 
-const router = require('express').Router();
+const router = express.Router();
 
-router.post('/', () => {
-    console.log("Post hit");
+
+router.post('/', (req, res) => {
+
+    console.log(req.body)
 });
+
+module.exports = router;

@@ -1,10 +1,10 @@
 import React from "react";
-import { useAuth } from "../../util/auth";
+// import { useAuth } from "../../util/auth";
 import Nav from "./Nav";
 import "./Nav.module.css";
 
 function Navbar() {
-  const auth = useAuth();
+  // const auth = useAuth();
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="collapse navbar-collapse" id="navbarNav">
