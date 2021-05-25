@@ -21,7 +21,21 @@ router.post('/', async (req, res) => {
         console.error(error);
         res.sendStatus(400);
     }
+});
 
+router.get('/', async (req, res) => {
+
+    try {
+
+        const bookData = await Book.find({
+            order: ['id', 'DESC'],
+        })
+        res.json(bookData)
+
+    } catch (error) {
+        console.error(error);
+        res.sendStatus(400);
+    }
 });
 
 module.exports = router;

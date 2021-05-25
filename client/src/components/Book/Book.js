@@ -1,8 +1,6 @@
 import React from "react";
 import "./book.css";
 import placeHolder150 from '../Book/placeholder150x150.jpg'
-// import ViewButton from "../Buttons/ViewButton";
-// import SaveButton from "../Buttons/SaveButton";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -20,7 +18,6 @@ function Book({ book }) {
             link: `${link}`
         }
         toast.success(`Book Added!`, { autoClose: 2000 });
-        console.log(newBook);
         axios.post("/api/books", newBook)
     }
 

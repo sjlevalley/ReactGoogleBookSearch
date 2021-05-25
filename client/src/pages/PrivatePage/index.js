@@ -1,14 +1,40 @@
-import React from "react";
-// import { useAuth } from "../../util/auth";
 
-// PrivatePage is an example include to demonstrate a route protected from
-// unauthenticated users. See the routing in App.js.
+import React, { useEffect, useState } from "react";
+import SaveButton from "../../components/Buttons/SaveButton";
+import axios from 'axios';
+import ResultsContainer from "../../components/ResultContainer/ResultContainer";
+import Book from "../../components/Book/Book";
+
+
+
 function PrivatePage() {
-  // const auth = useAuth();
-  // return <h1>Hello, {auth.user.username}!</h1>;
+
+
+  const [savedBooks, setSavedBooks] = useState({
+    books: []
+  });
+
+  useEffect(() => {
+    axios.get("/api/books")
+      .then(res => setSavedBooks({ books: res }))
+    // .then(console.log(savedBooks.books.data))
+  },
+
+    [])
+
+  let bookList = savedBooks.books.data
+  console.log(bookList)
+
+
+
   return (
-    <h1>Private Page</h1>
-  )
+    <div>
+      <ResultsContainer
+        searchResults={bookList}
+      />
+
+    </div>
+  );
 }
 
 export default PrivatePage;
