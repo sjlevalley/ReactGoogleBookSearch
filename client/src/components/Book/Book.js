@@ -9,16 +9,15 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function Book({ book }) {
-    const { title, authors, description, imageLinks, infoLink } = book.volumeInfo;
-
+    const { title, authors, description, image, link } = book;
     function saveBook(event) {
         event.preventDefault()
         const newBook = {
             title: `${title}`,
             authors: `${authors}`,
             description: `${description}`,
-            image: `${imageLinks.thumbnail}`,
-            link: `${infoLink}`
+            image: `${image}`,
+            link: `${link}`
         }
         toast.success(`Book Added!`, { autoClose: 2000 });
         console.log(newBook);
@@ -29,7 +28,7 @@ function Book({ book }) {
         <div className="card m-3 border border-dark" style={{}}>
             <div className="row no-gutters">
                 <div className="col-md-3">
-                    <img src={placeHolder150}
+                    <img src={image}
                         alt={`thumbnail of ${title}`} />
                 </div>
                 <div className="col-md-9">
@@ -55,7 +54,7 @@ function Book({ book }) {
                         <div className="d-flex justify-content-end">
                             <a
                                 className="btn btn-primary m-1"
-                                href={infoLink} target="_blank"
+                                href={link} target="_blank"
                                 rel="noopener noreferrer" >
                                 View
                                 </a>

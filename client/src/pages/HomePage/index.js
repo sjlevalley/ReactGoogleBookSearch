@@ -1,6 +1,6 @@
 // import React from "react";
 import React, { useEffect, useState } from "react";
-import bookAPI from "../../util/bookApi";
+import { bookAPI } from "../../util/bookApi";
 // import { useHistory } from "react-router-dom";
 // import { useAuth } from "../../util/auth";
 import ResultsContainer from "../../components/ResultContainer/ResultContainer";
@@ -22,15 +22,12 @@ function HomePage() {
 
   // Test Google Books Search
   useEffect(() => {
-    bookAPI.search(debouncedSearchTerm)
+    bookAPI(debouncedSearchTerm)
       .then((res) => {
-        setSearchResults(res.data.items)
+        setSearchResults(res)
       })
       .catch(console.error())
   }, [debouncedSearchTerm]);
-
-  // console.log(searchResults)
-
   function handleSearchChange(event) {
     const value = event.target.value;
     setSearch(value);
