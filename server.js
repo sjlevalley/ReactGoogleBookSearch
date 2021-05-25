@@ -13,7 +13,7 @@ const mongoose = require("mongoose");
 
 function connectDb() {
 
-  (mongoose.connect('mongodb://localhost/google_books_db', {
+  (mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/google_books_db', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
