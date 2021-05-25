@@ -17,12 +17,12 @@ function Book({ book }) {
             title: `${title}`,
             authors: `${authors}`,
             description: `${description}`,
-            imageLinks: `${imageLinks}`,
-            infoLink: `${infoLink}`
+            image: `${imageLinks.thumbnail}`,
+            link: `${infoLink}`
         }
         toast.success(`Book Added!`, { autoClose: 2000 });
         console.log(newBook);
-        axios.post("/api/books", JSON.stringify({ newBook }))
+        axios.post("/api/books", newBook)
     }
 
     return (
