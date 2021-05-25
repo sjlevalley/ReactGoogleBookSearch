@@ -20,7 +20,6 @@ function SearchForm({ handleSearchChange, handleFormSubmit, search }) {
                         id="search"
                         placeholder="Enter Search Here" />
                 </div>
-                <button className="btn btn-primary">Search</button>
             </form>
 
         </div >

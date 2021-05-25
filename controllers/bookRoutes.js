@@ -15,7 +15,6 @@ router.post('/', async (req, res) => {
             image,
             link
         });
-        console.log(book)
         res.json(book);
 
     } catch (error) {
@@ -27,9 +26,7 @@ router.post('/', async (req, res) => {
 router.get('/', async (req, res) => {
 
     try {
-
         const bookData = await Book.find({
-
         })
         res.json(bookData)
 
