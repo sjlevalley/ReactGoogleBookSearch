@@ -32,12 +32,12 @@ function Book({ book, page }) {
             link: `${link}`
         }
         console.log(Book)
-        // toast.success(`Book Deleted Successfully!`, { autoClose: 2000 });
+        toast.success(`Book Deleted Successfully!`, { autoClose: 2000 });
         axios.delete("/api/books", { data: { title: Book.title } });
     }
 
     return (
-        <div className="card m-3 border border-dark" style={{}}>
+        <div className="card m-3 border border-dark bookCard" style={{}}>
             <div className="row no-gutters">
                 <div className="col-md-2 imageContainer">
                     <img
@@ -69,7 +69,7 @@ function Book({ book, page }) {
                             {description}
                         </p>
 
-                        <div className="d-flex justify-content-end">
+                        <div className="d-flex justify-content-start">
                             <a
                                 className="btn btn-primary m-1"
                                 href={link} target="_blank"
@@ -77,7 +77,8 @@ function Book({ book, page }) {
                                 View
                             </a>
                             {page === "savedBooks" ?
-                                <button href="#" className="btn btn-success m-1" onClick={deleteBook}>Remove Book</button> :
+                                // <button href="#" className="btn btn-success m-1" onClick={deleteBook}>Remove Book</button> :
+                                <button className="btn btn-danger m-1" onClick={deleteBook}> ✗ </button> :
                                 <button href="#" className="btn btn-success m-1" onClick={saveBook}>Save to Reading List</button>}
                             <ToastContainer />
 

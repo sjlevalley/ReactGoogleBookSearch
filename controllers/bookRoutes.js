@@ -36,15 +36,16 @@ router.get('/', async (req, res) => {
 
 router.delete('/', async (req, res) => {
     console.log(req.body)
-    // try {
-    //     const bookData = await Book.find({
-    //     })
-    //     res.json(bookData)
+    try {
+        const bookData = await Book.deleteOne({
+            title: req.body.title
+        })
+        res.json(bookData)
 
-    // } catch (error) {
-    //     console.error(error);
-    //     res.sendStatus(400);
-    // }
+    } catch (error) {
+        console.error(error);
+        res.sendStatus(400);
+    }
 });
 
 module.exports = router;
