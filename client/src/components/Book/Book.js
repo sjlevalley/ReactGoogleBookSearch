@@ -37,56 +37,59 @@ function Book({ book, page }) {
     }
 
     return (
-        <div className="card m-3 border border-dark bookCard" style={{}}>
-            <div className="row no-gutters">
-                <div className="col-md-2 imageContainer">
-                    <img
-                        id="bookImage"
-                        className="bookImage"
-                        src={image}
-                        alt={`thumbnail of ${title}`}
-                    />
-                </div>
-                <div className="col-md-9">
-                    <div className="card-body">
-                        <h5
-                            className="card-title"
-                            name={title}
-                            value={title}>
-                            {title}
-                        </h5>
-                        <p
-                            className="card-text"
-                            name={authors}
-                            value={authors}>
-                            {authors}
-                        </p>
-                        <p
-                            className="card-text "
-                            id="cardText"
-                            name={description}
-                            value={description}>
-                            {description}
-                        </p>
+        <>
+            <ToastContainer />
+            <div className="card m-3 border border-dark bookCard" style={{}}>
+                <div className="row no-gutters">
+                    <div className="col-md-2 imageContainer">
+                        <img
+                            id="bookImage"
+                            className="bookImage"
+                            src={image}
+                            alt={`thumbnail of ${title}`}
+                        />
+                    </div>
+                    <div className="col-md-9">
+                        <div className="card-body">
+                            <h5
+                                className="card-title"
+                                name={title}
+                                value={title}>
+                                {title}
+                            </h5>
+                            <p
+                                className="card-text"
+                                name={authors}
+                                value={authors}>
+                                {authors}
+                            </p>
+                            <p
+                                className="card-text "
+                                id="cardText"
+                                name={description}
+                                value={description}>
+                                {description}
+                            </p>
 
-                        <div className="d-flex justify-content-start">
-                            <a
-                                className="btn btn-primary m-1"
-                                href={link} target="_blank"
-                                rel="noopener noreferrer" >
-                                View
-                            </a>
-                            {page === "savedBooks" ?
-                                // <button href="#" className="btn btn-success m-1" onClick={deleteBook}>Remove Book</button> :
-                                <button className="btn btn-danger m-1" onClick={deleteBook}> ✗ </button> :
-                                <button href="#" className="btn btn-success m-1" onClick={saveBook}>Save to Reading List</button>}
-                            <ToastContainer />
+                            <div className="d-flex justify-content-start">
+                                <a
+                                    className="btn btn-primary m-1"
+                                    href={link} target="_blank"
+                                    rel="noopener noreferrer" >
+                                    View
+                                </a>
+                                {page === "savedBooks" ?
+                                    // <button href="#" className="btn btn-success m-1" onClick={deleteBook}>Remove Book</button> :
+                                    <button className="btn btn-danger m-1" onClick={deleteBook}> ✗ </button> :
+                                    <button href="#" className="btn btn-success m-1" onClick={saveBook}>Save to Reading List</button>}
 
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
 
     );
 }
