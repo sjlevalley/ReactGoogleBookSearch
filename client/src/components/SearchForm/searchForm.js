@@ -12,7 +12,7 @@ function SearchForm({ handleSearchChange, handleFormSubmit, search }) {
                 <div className="form-group">
                     <label htmlFor="search">Book:</label>
                     <input
-                        defaultValue="Car"
+                        defaultValue="pizza"
                         type="text"
                         className="form-control"
                         onChange={handleSearchChange}

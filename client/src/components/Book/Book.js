@@ -24,9 +24,13 @@ function Book({ book }) {
     return (
         <div className="card m-3 border border-dark" style={{}}>
             <div className="row no-gutters">
-                <div className="col-md-3">
-                    <img src={image}
-                        alt={`thumbnail of ${title}`} />
+                <div className="col-md-2 imageContainer">
+                    <img
+                        id="bookImage"
+                        className="bookImage"
+                        src={image}
+                        alt={`thumbnail of ${title}`}
+                    />
                 </div>
                 <div className="col-md-9">
                     <div className="card-body">
@@ -37,14 +41,16 @@ function Book({ book }) {
                             {title}
                         </h5>
                         <p
-                            className="cart-text"
-                            name={authors}
-                            value={authors}>
-                            {authors}</p>
-                        <p
                             className="card-text"
                             name={authors}
                             value={authors}>
+                            {authors}
+                        </p>
+                        <p
+                            className="card-text "
+                            id="cardText"
+                            name={description}
+                            value={description}>
                             {description}
                         </p>
 
@@ -54,14 +60,14 @@ function Book({ book }) {
                                 href={link} target="_blank"
                                 rel="noopener noreferrer" >
                                 View
-                                </a>
+                            </a>
                             <button
                                 href="#"
                                 className="btn btn-success m-1"
                                 onClick={saveBook}
                             >
                                 Save
-                                </button>
+                            </button>
                             <ToastContainer />
 
                         </div>

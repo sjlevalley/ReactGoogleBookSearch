@@ -2,9 +2,13 @@ import React from "react";
 
 
 
-function DeleteButton() {
+function DeleteButton(props) {
+
+
     return (
-        <button>Delete</button>
+        <span className="delete-btn" {...props} role="button" tabIndex="0">
+            ✗
+        </span>
     );
 }
 

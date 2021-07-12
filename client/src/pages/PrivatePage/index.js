@@ -1,32 +1,29 @@
 
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import ResultsContainer from "../../components/ResultContainer/ResultContainer";
+import SavedResultsContainer from "../../components/ResultContainer/savedResultsContainer";
 
 
 
 function PrivatePage() {
 
-
+  const [bookList, setBookList] = useState([])
   const [savedBooks, setSavedBooks] = useState({
     books: []
   });
 
+
+
   useEffect(() => {
     axios.get("/api/books")
       .then(res => setSavedBooks({ books: res }))
-  },
-
-    [savedBooks])
-
-  let bookList = savedBooks.books.data
-  console.log(bookList)
-
+      .then(setBookList(savedBooks.books.data))
+  }, [savedBooks.books.data])
 
 
   return (
     <div>
-      <ResultsContainer
+      <SavedResultsContainer
         searchResults={bookList}
       />
 

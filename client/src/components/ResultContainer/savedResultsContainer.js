@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Book from "../Book/Book";
 // import { items as books } from "../../placeholder.json";
 
-function ResultsContainer({ searchResults, search }) {
+function SavedResultsContainer({ searchResults, search }) {
     const [books, setBooks] = useState()
 
 
@@ -34,4 +34,4 @@ function ResultsContainer({ searchResults, search }) {
     }
 }
 
-export default ResultsContainer;
+export default SavedResultsContainer;

@@ -15,7 +15,7 @@ function HomePage() {
   // console.log("!auth.isLoggedIn():", !auth.isLoggedIn());
   // console.log("auth.user", auth.user);
 
-  const [search, setSearch] = useState("car");
+  const [search, setSearch] = useState("pizza");
   const [searchResults, setSearchResults] = useState([]);
 
   const debouncedSearchTerm = useDebounce(search, 300);
@@ -41,6 +41,7 @@ function HomePage() {
         handleSearchChange={handleSearchChange}
       />
       <ResultsContainer
+        search={search}
         searchResults={searchResults}
       />
     </>
