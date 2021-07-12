@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import Book from "../Book/Book";
 // import { items as books } from "../../placeholder.json";
 
-function ResultsContainer({ searchResults, search }) {
+function ResultsContainer({ searchResults, search, page }) {
     const [books, setBooks] = useState()
+
+
 
 
     useEffect(() => {
@@ -19,7 +21,7 @@ function ResultsContainer({ searchResults, search }) {
                 {search ? <h3>Results for "{search}"</h3> : ""}
                 <div className="container container-fluid">
                     {books.map((book) => (
-                        <Book key={book.text} book={book} />
+                        <Book key={book.text} book={book} page={page} />
                     ))}
 
                 </div>

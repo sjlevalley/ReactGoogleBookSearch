@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import SavedResultsContainer from "../../components/ResultContainer/savedResultsContainer";
+import ResultsContainer from "../../components/ResultContainer/ResultContainer";
 
 
 
@@ -23,7 +23,8 @@ function PrivatePage() {
 
   return (
     <div>
-      <SavedResultsContainer
+      <ResultsContainer
+        page="savedBooks"
         searchResults={bookList}
       />
 

@@ -5,7 +5,6 @@ const router = express.Router();
 
 
 router.post('/', async (req, res) => {
-
     try {
         const { title, authors, description, image, link } = req.body;
         const book = await Book.create({
@@ -24,7 +23,6 @@ router.post('/', async (req, res) => {
 });
 
 router.get('/', async (req, res) => {
-
     try {
         const bookData = await Book.find({
         })
@@ -34,6 +32,19 @@ router.get('/', async (req, res) => {
         console.error(error);
         res.sendStatus(400);
     }
+});
+
+router.delete('/', async (req, res) => {
+    console.log(req.body)
+    // try {
+    //     const bookData = await Book.find({
+    //     })
+    //     res.json(bookData)
+
+    // } catch (error) {
+    //     console.error(error);
+    //     res.sendStatus(400);
+    // }
 });
 
 module.exports = router;

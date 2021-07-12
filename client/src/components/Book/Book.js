@@ -1,13 +1,14 @@
 import React from "react";
 import "./book.css";
-import placeHolder150 from '../Book/placeholder150x150.jpg'
+// import placeHolder150 from '../Book/placeholder150x150.jpg'
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-function Book({ book }) {
+function Book({ book, page }) {
     const { title, authors, description, image, link } = book;
+
     function saveBook(event) {
         event.preventDefault()
         const newBook = {
@@ -19,6 +20,20 @@ function Book({ book }) {
         }
         toast.success(`Book Added!`, { autoClose: 2000 });
         axios.post("/api/books", newBook)
+    }
+
+    function deleteBook(event) {
+        event.preventDefault()
+        const Book = {
+            title: `${title}`,
+            authors: `${authors}`,
+            description: `${description}`,
+            image: `${image}`,
+            link: `${link}`
+        }
+        console.log(Book)
+        // toast.success(`Book Deleted Successfully!`, { autoClose: 2000 });
+        axios.delete("/api/books", { data: { title: Book.title } });
     }
 
     return (
@@ -61,13 +76,9 @@ function Book({ book }) {
                                 rel="noopener noreferrer" >
                                 View
                             </a>
-                            <button
-                                href="#"
-                                className="btn btn-success m-1"
-                                onClick={saveBook}
-                            >
-                                Save
-                            </button>
+                            {page === "savedBooks" ?
+                                <button href="#" className="btn btn-success m-1" onClick={deleteBook}>Remove Book</button> :
+                                <button href="#" className="btn btn-success m-1" onClick={saveBook}>Save to Reading List</button>}
                             <ToastContainer />
 
                         </div>
