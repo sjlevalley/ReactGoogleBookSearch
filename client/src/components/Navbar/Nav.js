@@ -5,7 +5,7 @@ import styles from "./Nav.module.css";
 function Nav({ to, exact = false, children }) {
   return (
     <li>
-      <NavLink className="nav-link" exact={exact} to={to} activeClassName={styles.active}>
+      <NavLink className="nav-link m-2" exact={exact} to={to} activeClassName={styles.active}>
         {children}
       </NavLink>
     </li>

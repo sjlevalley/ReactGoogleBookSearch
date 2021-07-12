@@ -10,8 +10,8 @@ function App() {
   return (
     // <AuthProvider>
     <Router>
-      <Navbar />
       <Hero />
+      <Navbar />
       <Switch>
         <Route exact path="/">
           <HomePage />
