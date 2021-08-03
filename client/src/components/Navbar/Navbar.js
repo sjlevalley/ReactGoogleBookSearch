@@ -7,15 +7,17 @@ import "./Nav.module.css";
 function Navbar() {
   // const auth = useAuth();
   return (
-    <nav id="navbar" className="p-3 navbar navbar-expand-lg navbar-light m-2 border border-dark">
-      <div className="collapse navbar-collapse" id="navbar">
-        <ul id="navbar" className="navbar-nav">
+    <nav id="navbar" className="p-3 navbar navbar-expand navbar-light m-2 border border-dark">
+      <ul id="navbar" className="navbar-nav">
+        <div id="navbar" className="col m-2">
           <Nav className="navbar-brand" exact to="/">
             Google Book Search
           </Nav>
+        </div>
+        <div id="navbar" className="col m-2">
           <Nav to="/private">Saved Books</Nav>
-        </ul>
-      </div>
+        </div>
+      </ul>
     </nav>
   );
 }
