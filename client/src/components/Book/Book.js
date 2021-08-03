@@ -2,6 +2,7 @@ import React from "react";
 import "./book.css";
 // import placeHolder150 from '../Book/placeholder150x150.jpg'
 import axios from "axios";
+import './book.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -18,7 +19,15 @@ function Book({ book, page }) {
             image: `${image}`,
             link: `${link}`
         }
-        toast.success(`Book Added!`, { autoClose: 2000 });
+        toast.success('Book Added Successfully!', {
+            position: "top-right",
+            autoClose: 1500,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: true,
+            progress: undefined,
+        });
         axios.post("/api/books", newBook)
     }
 
@@ -32,25 +41,26 @@ function Book({ book, page }) {
             link: `${link}`
         }
         console.log(Book)
-        toast.success(`Book Deleted Successfully!`, { autoClose: 2000 });
+        toast.success(`Book Deleted Successfully!`, { autoClose: 1500 }
+        );
         axios.delete("/api/books", { data: { title: Book.title } });
     }
 
     return (
-        <>
-            <ToastContainer />
-            <div className="card m-3 border border-dark bookCard" style={{}}>
-                <div className="row no-gutters">
-                    <div className="col-md-2 imageContainer">
+        <div id="bookContainer" className="bookCard m-4">
+
+            <div id="bookCard" className="card">
+                <div id="bookCard" className="row no-gutters m-1">
+                    <div id="bookCard" className="col-md-2 imageContainer">
                         <img
                             id="bookImage"
-                            className="bookImage"
+                            className="bookImage m-2"
                             src={image}
                             alt={`thumbnail of ${title}`}
                         />
                     </div>
-                    <div className="col-md-9">
-                        <div className="card-body">
+                    <div id="bookCard" className="col-md-9">
+                        <div id="bookCard" className="card-body">
                             <h5
                                 className="card-title"
                                 name={title}
@@ -89,7 +99,7 @@ function Book({ book, page }) {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
 
     );
 }

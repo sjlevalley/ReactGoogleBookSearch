@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Book from "../Book/Book";
+import './resultscontainer.css'
 // import { items as books } from "../../placeholder.json";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ResultsContainer({ searchResults, search, page }) {
     const [books, setBooks] = useState()
@@ -17,14 +20,22 @@ function ResultsContainer({ searchResults, search, page }) {
 
     if (books) {
         return (
-            <div className="m-5 border p-3">
-                {search ? <h3>Results for "{search}"</h3> : ""}
-                <div className="container container-fluid">
-                    {books.map((book) => (
-                        <Book key={book.text} book={book} page={page} />
-                    ))}
-
-                </div>
+            <div id="resultContainer" className="m-4 p-3">
+                {search ? <h3 id="resultContainer">Results for "{search}"</h3> : ""}
+                <ToastContainer
+                    className="bg-success d-flex justify-content-center"
+                    style={{ opacity: 0.9 }}
+                    position="top-right"
+                    autoClose={1500}
+                    hideProgressBar={true}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    draggable
+                />
+                {books.map((book) => (
+                    <Book key={book.text} book={book} page={page} />
+                ))}
             </div>
         );
     } else {

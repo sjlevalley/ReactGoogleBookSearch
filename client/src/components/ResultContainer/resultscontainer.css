@@ -5,19 +5,13 @@
   --dark: #575757;
 }
 
-.jumbotron {
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    10%, var(--lightbeige);
-}
-
-.heroText {
+* {
   background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
     10%, var(--dark);
-  width: fit-content;
+}
+
+#resultContainer {
+  background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
+    10%, var(--lightbeige);
   border-radius: 10px;
-  color: var(--lightgray);
 }

@@ -1,14 +1,15 @@
 import React from "react";
 // import { useAuth } from "../../util/auth";
 import Nav from "./Nav";
+import './navbar.css';
 import "./Nav.module.css";
 
 function Navbar() {
   // const auth = useAuth();
   return (
-    <nav className="p-3 navbar navbar-expand-lg navbar-light bg-light border">
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
+    <nav id="navbar" className="p-3 navbar navbar-expand-lg navbar-light m-2 border border-dark">
+      <div className="collapse navbar-collapse" id="navbar">
+        <ul id="navbar" className="navbar-nav">
           <Nav className="navbar-brand" exact to="/">
             Google Book Search
           </Nav>

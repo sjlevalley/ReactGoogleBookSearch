@@ -5,12 +5,9 @@
   --dark: #575757;
 }
 
-.searchBox {
-  margin: 25px;
-}
-
-#searchForm {
+#navbar,
+.navbar-nav {
   background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    /* 10%, #fafaf8; */ 10%, #ffffe0;
+    10%, #fafaf8;
   border-radius: 10px;
 }
