@@ -7,7 +7,7 @@ import "./Nav.module.css";
 function Navbar() {
   // const auth = useAuth();
   return (
-    <nav id="navbar" className=" mb-1 navbar-expand navbar-light">
+    <nav id="navbar" className="navbar-expand navbar-light">
       <ul id="navbar" className="navbar-nav">
         <div id="navbar" className="col p-2">
           <Nav className="navbar-brand" exact to="/">
