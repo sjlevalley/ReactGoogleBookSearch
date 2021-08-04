@@ -7,9 +7,9 @@ import "./Nav.module.css";
 function Navbar() {
   // const auth = useAuth();
   return (
-    <nav id="navbar" className="p-3 navbar navbar-expand navbar-light">
+    <nav id="navbar" className="m-1 navbar navbar-expand navbar-light">
       <ul id="navbar" className="navbar-nav">
-        <div id="navbar" className="col m-2">
+        <div id="navbar" className="col m-1">
           <Nav className="navbar-brand" exact to="/">
             Google Book Search
           </Nav>
