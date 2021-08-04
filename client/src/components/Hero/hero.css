@@ -8,10 +8,13 @@
 .jumbotron {
   height: 40vh;
   display: flex;
-  justify-content: center;
+  background-image: url(./bookshelf.png);
+  justify-content: flex-start;
   align-items: center;
-  background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    10%, var(--lightbeige);
+}
+
+.container {
+  opacity: 0.9;
 }
 
 .heroText {

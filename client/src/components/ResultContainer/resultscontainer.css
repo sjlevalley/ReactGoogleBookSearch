@@ -12,6 +12,6 @@
 
 #resultContainer {
   background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    10%, var(--lightbeige);
-  border-radius: 10px;
+    10%, var(--lightgray);
+  border-radius: 2px;
 }

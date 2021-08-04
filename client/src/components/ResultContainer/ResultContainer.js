@@ -20,7 +20,7 @@ function ResultsContainer({ searchResults, search, page }) {
 
     if (books) {
         return (
-            <div id="resultContainer" className="m-4 p-3">
+            <div id="resultContainer" className="m-2 p-3">
                 {search ? <h3 id="resultContainer">Results for "{search}"</h3> : ""}
                 <ToastContainer
                     className="bg-success d-flex justify-content-center"
