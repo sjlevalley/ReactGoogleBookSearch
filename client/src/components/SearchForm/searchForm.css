@@ -1,16 +1,13 @@
 :root {
-  --lightbeige: #ffffe0;
+  /* --lightbeige: #ffffe0; */
+  --lightbeige: #f1c07e;
   --lightgray: #fafaf8;
   --orange: #cc4100;
   --dark: #575757;
 }
 
-.searchBox {
-  margin: 25px;
-}
-
 #searchForm {
   background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    /* 10%, #fafaf8; */ 10%, #ffffe0;
+    10%, #ffe9cb;
   border-radius: 2px;
 }

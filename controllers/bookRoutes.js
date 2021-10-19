@@ -27,7 +27,6 @@ router.get('/', async (req, res) => {
         const bookData = await Book.find({
         })
         res.json(bookData)
-
     } catch (error) {
         console.error(error);
         res.sendStatus(400);

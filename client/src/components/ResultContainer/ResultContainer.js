@@ -1,22 +1,17 @@
 import React, { useEffect, useState } from "react";
 import Book from "../Book/Book";
 import './resultscontainer.css'
-// import { items as books } from "../../placeholder.json";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+// toastr.success("Success!", "Card Added Successfully");
 
 function ResultsContainer({ searchResults, search, page }) {
     const [books, setBooks] = useState()
 
-
-
-
     useEffect(() => {
-        setBooks(searchResults)
+        setBooks(() => searchResults)
     }, [searchResults])
-
-
-
 
     if (books) {
         return (
@@ -34,7 +29,7 @@ function ResultsContainer({ searchResults, search, page }) {
                     draggable
                 />
                 {books.map((book) => (
-                    <Book key={book.text} book={book} page={page} />
+                    <Book key={Math.random()} book={book} page={page} />
                 ))}
             </div>
         );

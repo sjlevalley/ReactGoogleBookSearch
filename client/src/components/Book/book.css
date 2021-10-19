@@ -1,5 +1,5 @@
 :root {
-  --lightbeige: #ffffe0;
+  --lightbeige: #f1c07e;
   --lightgray: #fafaf8;
   --orange: #cc4100;
   --dark: #575757;
@@ -28,7 +28,7 @@
   box-shadow: 1px 2px 10px rgb(0 0 0 / 72%), 0 4px 8px rgb(0 0 0 / 6%);
   cursor: pointer;
   background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    10%, var(--lightbeige);
+    10%, #ffe9cb;
 }
 
 #bookContainer:hover {
@@ -41,11 +41,11 @@
   border-radius: 10px;
   cursor: pointer;
   background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
-    10%, var(--lightbeige);
+    10%, #ffe9cb;
 }
 
 .bookCard:hover {
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
   transition-duration: 0.4s;
   box-shadow: 1px 2px 10px var(--dark / 72%), 0 4px 8px var(--dark / 6%);
 }

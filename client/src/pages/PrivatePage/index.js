@@ -7,27 +7,22 @@ import ResultsContainer from "../../components/ResultContainer/ResultContainer";
 
 function PrivatePage() {
 
-  const [bookList, setBookList] = useState([])
-  const [savedBooks, setSavedBooks] = useState({
-    books: []
-  });
+  const [savedBooks, setSavedBooks] = useState([]);
 
 
 
   useEffect(() => {
     axios.get("/api/books")
-      .then(res => setSavedBooks({ books: res }))
-      .then(setBookList(savedBooks.books.data))
-  }, [savedBooks.books.data])
+      .then(res => { setSavedBooks(res.data.reverse()) })
+  }, [])
 
 
   return (
     <div>
       <ResultsContainer
         page="savedBooks"
-        searchResults={bookList}
+        searchResults={savedBooks}
       />
-
     </div>
   );
 }

@@ -36,7 +36,8 @@
     "express-session": "^1.17.2",
     "if-env": "^1.0.4",
     "lodash": "^4.17.21",
-    "mongoose": "^5.12.10"
+    "mongoose": "^5.12.10",
+    "react-redux-toastr": "^7.6.5"
   },
   "repository": {
     "type": "git",

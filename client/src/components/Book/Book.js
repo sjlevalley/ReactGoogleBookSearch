@@ -3,7 +3,7 @@ import "./book.css";
 // import placeHolder150 from '../Book/placeholder150x150.jpg'
 import axios from "axios";
 import './book.css'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -41,8 +41,7 @@ function Book({ book, page }) {
             link: `${link}`
         }
         console.log(Book)
-        toast.success(`Book Deleted Successfully!`, { autoClose: 1500 }
-        );
+        toast.success(`Book Deleted Successfully!`, { autoClose: 1500 });
         axios.delete("/api/books", { data: { title: Book.title } });
     }
 
